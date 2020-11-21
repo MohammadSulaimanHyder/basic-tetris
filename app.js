@@ -175,12 +175,10 @@ document.addEventListener('DOMContentLoaded', () => {
   
   }
 
-
   //Is to display the upcoming tetromino in the mini-grid.
   const displaySquares = document.querySelectorAll('.mini-grid div')
   const displayWidth = 4
   const displayIndex = 0 
-
 
   //The array contains one shape of every tetromino.
   const tetrominoUpNext = [
